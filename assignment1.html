@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" name="name"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email"><br><br>
+
+        <label for="Roll No">Roll No:</label>
+        <input type="text" name="rollno"><br><br>
+
+         <label for="date">Date of Birth : </label>
+        <input id="date"  type="date"/><br><br>
+
+        <label>Address :</label><br>
+        <textarea rows="10"></textarea><br><br>
+
+        <label>Class :</label>
+        <select>
+            <option>Sem 1</option>
+            <option>Sem 2</option>
+            <option>Sem 3</option>
+        </select><br><br>
+        
+        <label>Favorite Subject</label>
+        <input list="subject"/>
+
+        <datalist id="subject">
+            <option value="DSA">
+            <option value="MERN">
+            <option value="Java">
+        </datalist><br><br>
+
+        <label>Gender : </label><br>
+        <input type="radio" name="gender"/> Male
+        <input type="radio" name="gender"/> Female
+        <input type="radio" name="gender"/> Others<br><br>
+
+        <label>Hobbies :</label><br>
+        <input type="checkbox"/>Codding
+        <input type="checkbox"/>Running
+        <input type="checkbox"/>Reading<br><br>
+
+        <button type="submit">Submit</button>
+
+
+    </form>
+</body>
+</html>
