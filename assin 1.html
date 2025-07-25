@@ -1,0 +1,59 @@
+<form>
+  <h1>Student Registration Form</h1>
+
+  Name: 
+  <input type="text" placeholder="Enter your Name" name="name" required><br><br>
+
+  Email: 
+  <input type="email" placeholder="Enter your Email" name="email" required><br><br>
+
+  Phone Number:
+  <input type="tel" placeholder="1234567890" name="phone" pattern="[0-9]{10}" required><br><br>
+
+  Roll No:
+  <input type="number" placeholder="1234" name="roll" required><br><br>
+
+  Date of Birth:
+  <input type="date" name="dob" required><br><br>
+
+  Upload Photo:
+  <input type="file" name="photo" accept="image/*"><br><br>
+
+  Address:
+  <br>
+  <textarea name="address" placeholder="Enter your address" required></textarea><br><br>
+
+  Class:
+  <select name="class" required>
+    <option value="">---Select Class----</option>
+    <option value="10">10</option>
+    <option value="11">11</option>
+    <option value="12">12</option>
+  </select><br><br>
+
+  Favourite Subject:
+  <input type="text" placeholder="Choose subject" name="subject"><br><br>
+
+  Gender:
+  <br>
+  <input type="radio" name="gender" value="male" required> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other<br><br>
+
+  Hobbies:
+  <br>
+  <input type="checkbox" name="hobby" value="sports"> Sports<br>
+  <input type="checkbox" name="hobby" value="reading"> Reading<br>
+  <input type="checkbox" name="hobby" value="music"> Music<br><br>
+
+  Password:
+  <input type="password" name="password" placeholder="Enter Password" required><br><br>
+
+  Confirm Password:
+  <input type="password" name="confirm_password" placeholder="Confirm Password" required><br><br>
+
+  <input type="checkbox" name="terms" required> I agree to the Terms & Conditions<br><br>
+
+  <input type="submit" value="Submit">
+  <input type="reset" value="Reset">
+</form>
