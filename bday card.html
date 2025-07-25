@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Birthday Card</title>
+    <style>
+        body {
+            background-color: #f8f8f8;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .card {
+            background: linear-gradient(to right, #ffe0cc, #ffb6b9);
+            padding: 30px;
+            width: 350px;
+            text-align: center;
+            border-radius: 15px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+            position: relative;
+            border: 2px solid #ff8888;
+        }
+        
+        .pin {
+            width: 20px;
+            height: 30px;
+            background: red;
+            border-radius: 50%;
+            position: absolute;
+            top: -15px;
+            right: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        
+        h2 {
+            background: linear-gradient(to right, #e06666, #93c47d);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 22px;
+            margin-bottom: 15px;
+        }
+        
+        .cake-img {
+            width: 100px;
+            height: auto;
+            margin-bottom: 15px;
+        }
+        
+        .message {
+            font-size: 14px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        
+        .blessing {
+            border: 2px dashed #ffb6b9;
+            padding: 10px;
+            background-color: #fff;
+            margin-bottom: 20px;
+            font-size: 13px;
+            color: #444;
+        }
+        
+        .surprise-btn {
+            background-color: #ff6f61;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        
+        .surprise-btn:hover {
+            background-color: #e65c50;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="pin"></div>
+        <h2>Happy mukund</h2>
+        <img src="data:image/jpeg;base64,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"
+            alt="Cake" class="cake-img" />
+        <p class="message">
+            Wishing you a day filled with happiness, laughter, and sweet surprises!
+        </p>
+        <div class="blessing">
+            Lots of love and blessings on your special day. May all your dreams come true. Keep smiling and shining always! 💖
+        </div>
+        <button class="surprise-btn">Click for Surprise 🎁</button>
+    </div>
+</body>
+
+</html>
