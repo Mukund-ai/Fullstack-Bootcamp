@@ -1,1 +1,22 @@
-to do list project 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Todo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Simple Todo</h1>
+        <form>
+            <input type="text" placeholder="What to do?">
+            <button type="submit">Add</button>
+        </form>
+        
+        <ul>
+            <li>Buy milk <button>×</button></li>
+            <li>Walk dog <button>×</button></li>
+            <li>Do homework <button>×</button></li>
+        </ul>
+    </div>
+</body>
+</html>
